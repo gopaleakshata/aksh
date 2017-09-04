@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<cstdlib>
+using name space std;
+int menu()
+{
+int choice;
+cout<<"enter your choice\n";
+cout<<"1 for enter  area of circle\n";
+cout<<"2 for enter area of rectangle\n";
+cout<<"3 for enter area of triangle\n";
+cout<<"4 for volume of a cube\n";
+cout<<"5 for exit\n";
+cin>>choice;
+return choice;
+}
