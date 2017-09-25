@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a=0,b=1,c;
+cout<<"fibonacci series output(by:Akshata Gopale)\n\n";
+cout<<"series:-"<<a<<" "<<b;
+for (int i=0;i<=25;i++)
+{
+c=a+b;
+cout<<" "<<c;
+a=b;
+b=c;
+} 
+getch();
+}
